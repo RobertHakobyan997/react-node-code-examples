@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "ObjectId('616449bea08a5c401affb629')",
+    "supplier": "jpMorgan",
+    "name": "Alfonso Castagno",
+    "company": "JP Morgan & Co.",
+    "email": "alfonso.x.castagno@jpmorgan.com",
+    "number": "+44 20 7742 7535"
+  },
+  {
+    "_id": "ObjectId('61644c19a08a5c401affb634')",
+    "supplier": "jpMorgan",
+    "name": "",
+    "company": "JP Morgan & Co.",
+    "email": "pbservice.ukme@jpmorgan.com",
+    "number": ""
+  },
+  {
+    "_id": "ObjectId('619f8ab6d98c78007c5aa724')",
+    "name": "Team",
+    "company": "StateStreet",
+    "email": "MercerFAIreland@statestreet.com",
+    "supplier": "stateStreetCustody",
+    "number": ""
+  },
+  {
+    "_id": "ObjectId('619f8ac1fc1c4700777d87c4')",
+    "name": "Zuzanna Korsak",
+    "company": "StateStreet",
+    "email": "zukorsak@statestreet.com",
+    "number": "+353 1 776 4011",
+    "supplier": "stateStreetCustody"
+  },
+  {
+    "_id": "ObjectId('619f8accd98c78007c5aa728')",
+    "name": "Joan Furlong",
+    "company": "StateStreet",
+    "email": "joan.furlong@statestreet.com",
+    "number": "+353 1 776 5077",
+    "supplier": "stateStreetCustody"
+  },
+  {
+    "_id": "ObjectId('619f8ad0d98c78007c5aa72f')",
+    "name": "Ed O’Donoghue",
+    "company": "StateStreet",
+    "email": "eodonoghue@statestreet.com",
+    "number": "+353 1 776 8958",
+    "supplier": "stateStreetCustody"
+  }
+]

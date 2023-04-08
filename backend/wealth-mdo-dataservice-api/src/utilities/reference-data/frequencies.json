@@ -1,0 +1,42 @@
+[
+  {
+    "_id"     : "ObjectId('61aa28a1a1c7b0900a8c8ad6')",
+    "key"     : "Monthly",
+    "display" : "Monthly",
+    "possibleExpectedDays": ["AllWorkDays", "AllDaysOfWeek"],
+    "isMultipleExpectedDays": false,
+    "order"   : 1
+  },
+  {
+    "_id"     : "ObjectId('61aa28b2b0715fbbf6260cb5')",
+    "key"     : "ContinuousMonthly",
+    "display" : "Continuous Monthly",
+    "possibleExpectedDays": ["AllWorkDays", "AllDaysOfWeek"],
+    "isMultipleExpectedDays": false,
+    "order"   : 2
+  },
+  {
+    "_id"     : "ObjectId('61aa28b7f3240ba40f9bc239')",
+    "key"     : "Daily",
+    "display" : "Daily",
+    "possibleExpectedDays": ["AllWorkDays", "AllDaysOfWeek"],
+    "isMultipleExpectedDays": false,
+    "order"   : 3
+  },
+  {
+    "_id"     : "ObjectId('61aa28bb01bb467d1e489a35')",
+    "key"     : "Weekly",
+    "display" : "Weekly",
+    "possibleExpectedDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "isMultipleExpectedDays": true,
+    "order"   : 4
+  },
+  {
+    "_id"     : "ObjectId('6205148debe04940c0b83fef')",
+    "key"     : "AdHoc",
+    "display" : "Ad hoc",
+    "possibleExpectedDays": ["AllWorkDays", "AllDaysOfWeek"],
+    "isMultipleExpectedDays": false,
+    "order"   : 5
+  }
+]

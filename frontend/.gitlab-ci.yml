@@ -1,0 +1,103 @@
+variables:
+  # SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"
+  GIT_DEPTH: "0"
+
+stages:
+  - init
+  - lint
+  # - test
+  - dev
+  - prod
+
+cache:
+  paths:
+    - node_modules/
+
+eslint:
+  stage: lint
+  image: node:18.10.0
+  script:
+    - node_modules/eslint/bin/eslint.js
+  rules:
+    - if: "$CI_PIPELINE_SOURCE=='merge_request_event'"
+      when: always
+
+init:
+  image: node:18.10.0
+  stage: init
+  script:
+    - yarn
+  rules:
+    - if: "$CI_COMMIT_REF_NAME=='main'"
+      when: always
+
+.build:
+  image: node:18.10.0
+  script:
+  - mv $env .env
+  - yarn build
+  artifacts:
+    paths:
+      - build
+    expire_in: 3 days
+
+.deploy:
+  image: python:3.10
+  before_script:
+    - pip install awscli
+
+# sonarcloud-check:
+#   stage: test
+#   image:
+#     name: sonarsource/sonar-scanner-cli:latest
+#     entrypoint: [""]
+#   cache:
+#     key: "${CI_JOB_NAME}"
+#     paths:
+#       - .sonar/cache
+#   script:
+#     - sonar-scanner
+#   rules:
+#     - if: "$CI_PIPELINE_SOURCE=='merge_request_event'"
+
+build-dev:
+  extends: .build
+  stage: dev
+  environment: dev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME=='main'"
+      when: always
+
+build-prod:
+  extends: .build
+  stage: prod
+  environment: prod
+  rules:
+    - if: "$CI_COMMIT_REF_NAME=='main'"
+      when: manual
+
+deploy-dev:
+  extends: .deploy
+  stage: dev
+  environment: dev
+  needs:
+    - job: build-dev
+  script:
+    - aws s3 cp ./build/ s3://$S3_BUCKET/ --recursive --include "*"
+    - aws cloudfront create-invalidation --distribution-id E11G3EST64VA0Z --paths "/*"
+  rules:
+    - if: "$CI_COMMIT_REF_NAME=='main'"
+      when: always
+
+deploy-prod:
+  extends: .deploy
+  stage: prod
+  environment: prod
+  needs:
+    - job: build-prod
+  script:
+    - aws s3 cp ./build/ s3://$S3_BUCKET/ --recursive --include "*"
+    - aws cloudfront create-invalidation --distribution-id EPL74CW1BHMZU --paths "/*"
+  rules:
+    - if: "$CI_COMMIT_REF_NAME=='main'"
+      when: manual

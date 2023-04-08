@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c26bf')",
+    "key": "positions",
+    "display": "Positions",
+    "order": 1,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c26c0')",
+    "key": "transactions",
+    "display": "Transactions",
+    "order": 2,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c26c1')",
+    "key": "cashFlow",
+    "display": "Cash Flow",
+    "order": 3,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c26c2')",
+    "key": "error",
+    "display": "Error",
+    "order": 4,
+    "hidden": true
+  },
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c26cf')",
+    "key": "prices",
+    "display": "Prices",
+    "order": 5,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('6075ffd013a048976c4c27cf')",
+    "key": "performance",
+    "display": "Performance",
+    "order": 6,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('61c9c5a8557d7555fe297218')",
+    "key": "various",
+    "display": "Various",
+    "order": 7,
+    "hidden": false
+  },
+  {
+    "_id": "ObjectId('621387e2a37c0841868f5bb2')",
+    "key": "fxRates",
+    "display": "FX Rates",
+    "order": 8,
+    "hidden": false
+  }
+]

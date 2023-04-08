@@ -1,0 +1,35 @@
+# Logs
+*.log
+npm-debug.log*
+yarn.lock
+
+# IDE
+.idea
+.vscode
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+
+# npm lock file
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# OS X trash files
+.DS_Store
+
+dist
+
+reports
+
+debug.json

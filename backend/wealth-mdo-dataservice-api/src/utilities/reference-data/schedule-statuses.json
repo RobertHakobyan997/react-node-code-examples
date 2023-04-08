@@ -1,0 +1,30 @@
+[
+    {
+        "_id" : "ObjectId('608ba9cbc1656e7b68ab3eee')",
+        "key" : "alertSent",
+        "display" : "Alert Sent",
+        "order" : 1,
+        "hidden": true
+    },
+    {
+      "_id" : "ObjectId('608ba9cbc1656e7b68ab3eed')",
+      "key" : "late",
+      "display" : "Late",
+      "order" : 2,
+      "hidden": false
+    },
+    {
+      "_id" : "ObjectId('608ba9cbc1656e7b68ab3eec')",
+      "key" : "onTime",
+      "display" : "On Time",
+      "order" : 3,
+      "hidden": false
+    },
+    {
+        "_id" : "ObjectId('6094e5f9eb0913634ca2f1dc')",
+        "key": "onSchedule",
+        "display": "On Schedule",
+        "order": 4,
+        "hidden": true
+    }
+]

@@ -1,0 +1,5 @@
+export enum CAMUNDA_PROCESS {
+  PROCESS_DEFENITION_KEY = 'Process_0swyzid',
+  TENANT_ID = '1234',
+  PROCESS_INSTANCE_ID = '4932f9d0-6c6b-11eb-8b32-0242ac110002',
+}

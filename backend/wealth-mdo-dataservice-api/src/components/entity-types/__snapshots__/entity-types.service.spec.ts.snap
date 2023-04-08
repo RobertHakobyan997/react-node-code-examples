@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntityTypesService plainToClass 1`] = `
+Object {
+  "_id": "609d4c33bfd3901b8c3af7f7",
+  "display": "Fund",
+  "hidden": false,
+  "key": "fund",
+  "order": 1,
+}
+`;

@@ -1,0 +1,804 @@
+[
+  {
+    "_id": "ObjectId('611f68a99f217cce3a4d91f8')",
+    "dataTransferJobKey": "eagle2Kafka_Entities",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('611f6d0df72945a1fb538c0d')",
+        "objectType": "Entities",
+        "dbName": "rulesdbo",
+        "tableName": "entity",
+        "columnName": "upd_Date",
+        "eagleApiEndPointName": "entities",
+        "topicName": "P500_EAGLE2KF_ENTITIES",
+        "childObjectName": "genericEntity",
+        "parentObjectName": "entityTransaction",
+        "dataHeader": "entityTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6132294991a31cf0342e14d9')",
+    "dataTransferJobKey": "eagle2Kafka_Securities",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c7ad2871c0445610cd16')",
+        "objectType": "Securities",
+        "dbName": "securitydbo",
+        "tableName": "security_master",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "securities",
+        "topicName": "P500_EAGLE2KF_SECURITIES",
+        "childObjectName": "genericSMF",
+        "parentObjectName": "referenceTransaction",
+        "dataHeader": "referenceTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('61322955b836a1f52fd7038d')",
+    "dataTransferJobKey": "eagle2Kafka_FxRates",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c7a8aea95d5244e0d7cb')",
+        "objectType": "FxRates",
+        "dbName": "securitydbo",
+        "tableName": "fx_rates",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "issue-fx-rates",
+        "topicName": "P500_EAGLE2KF_FXRATES",
+        "childObjectName": "issueFxRate",
+        "parentObjectName": "referenceTransaction",
+        "dataHeader": "referenceTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('61322962ef9b07138f743985')",
+    "dataTransferJobKey": "eagle2Kafka_Entity_Xref",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c7a4f28eac2aabcbeba5')",
+        "objectType": "Entity Xref",
+        "dbName": "rulesdbo",
+        "tableName": "entity_xreference",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "xrefs",
+        "topicName": "P500_EAGLE2KF_ENTITYXREF",
+        "childObjectName": "entityIdentifiers",
+        "parentObjectName": "entityTransaction",
+        "dataHeader": "entityTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6132296e64e29e11a39e8cad')",
+    "dataTransferJobKey": "eagle2Kafka_Security_Xref",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c79ff8041e08c71fc377')",
+        "objectType": "Security Xref",
+        "dbName": "securitydbo",
+        "tableName": "xreference",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "identifiers",
+        "topicName": "P500_EAGLE2KF_SECURITYXREF",
+        "childObjectName": "sMFIdentifiers",
+        "parentObjectName": "referenceTransaction",
+        "dataHeader": "referenceTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6132297311ecfeeaffcee721')",
+    "dataTransferJobKey": "eagle2Kafka_Positions",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c79956b9d79b09c11a07')",
+        "objectType": "Positions",
+        "dbName": "holdingdbo",
+        "tableName": "position",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "positions",
+        "topicName": "P500_EAGLE2KF_POSITIONS",
+        "childObjectName": "warehousePosition",
+        "parentObjectName": "warehouseTransaction",
+        "dataHeader": "warehouseTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6132297fb72be468fef18c0d')",
+    "dataTransferJobKey": "eagle2Kafka_Prices",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "America/Chicago",
+      "holidayCalendarId": "ObjectId('609d488d3413c47110d7f91f')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "13:00"
+          },
+          "endOfOnTime": {
+            "time": "16:00"
+          },
+          "endOfLate": {
+            "time": "17:00"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('6128c7945a94566772b94969')",
+        "objectType": "Prices",
+        "dbName": "securitydbo",
+        "tableName": "price",
+        "columnName": "update_Date",
+        "eagleApiEndPointName": "issue-prices",
+        "topicName": "P500_EAGLE2KF_PRICES",
+        "childObjectName": "issuePrice",
+        "parentObjectName": "referenceTransaction",
+        "dataHeader": "referenceTransactionMessage",
+        "historyOnlyFlag": "N",
+        "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+        "accountName": "EaglePaceAPI",
+        "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+        "ftpAccountName": "EaglePaceSFTP",
+        "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+        "eagleIdentifiers": {
+          "accountIdType": "NRS_CUSTODY_FUND",
+          "securityIdType": "NRS_CUSTODY"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('611f68a99f218cce3a4d91f9')",
+    "dataTransferJobKey": "mdo2bot_Users",
+    "region": "international",
+    "country": "",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-10-01",
+      "startTime": "05:00",
+      "frequency": "Weekly",
+      "repeatDuration": 1,
+      "endDate": "2099-10-01",
+      "timeZone": "UTC",
+      "holidayCalendarId": "ObjectId('60cc509c50020128e4d028c5')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "Tuesday",
+          "endOfOnSchedule": {
+            "time": "23:00"
+          },
+          "endOfOnTime": {
+            "time": "23:30"
+          },
+          "endOfLate": {
+            "time": "23:30"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('611f6d0df72945a6fb538c09')",
+        "objectType": "Users",
+        "dbName": "mdoadmin",
+        "tableName": "users",
+        "topicName": "P500_MDO2BOT_USERS",
+        "accountName": "",
+        "nested": {
+          "requestUrl": "https://admin.mdo.euwt1.dev.int.mercer.com/api/v1/mdo-be/",
+          "requestKey": "hO5wlnXVy1hTvE28v0o0N1",
+          "sender": "NoReply-MDO-OSS2@mmc.com",
+          "recipients": [
+            "elena.belomytseva@mmc.com"
+          ]
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('611f68a99f218cce3a4d91d2')",
+    "dataTransferJobKey": "revport2Crims",
+    "region": "international",
+    "country": "",
+    "workflowProcessName": "DataTransfer_Default_Workflow",
+    "workflowProcessKey": "",
+    "isEnabled": false,
+    "schedule": {
+      "startDate": "2021-09-01",
+      "startTime": "05:00",
+      "frequency": "Daily",
+      "repeatDuration": 1,
+      "endDate": "2099-09-01",
+      "timeZone": "UTC",
+      "holidayCalendarId": "ObjectId('60cc509c50020128e4d028c5')",
+      "expectedDays": [
+        {
+          "dayOfTheWeek": "AllWorkDays",
+          "endOfOnSchedule": {
+            "time": "23:00"
+          },
+          "endOfOnTime": {
+            "time": "23:20"
+          },
+          "endOfLate": {
+            "time": "23:59"
+          }
+        }
+      ]
+    },
+    "snaplogicTasks": [
+      {
+        "taskUrl": "TASK_TRGD_MDO_MasterDataTransfer",
+        "camundaTopicName": "callSnaplogicDataTransferTask"
+      }
+    ],
+    "data": [
+      {
+        "_id": "ObjectId('611f6d0df72945a6fb538c09')",
+        "objectType": "Revport",
+        "dbName": "",
+        "tableName": "",
+        "topicName": "P500_REVPORT2CRIMS",
+        "accountName": "",
+        "nested": {
+          "ftpInputPath": "sftp://int-prd.mgti.mmc.com/to_mrcrwealth_mdo/crims/meraut/",
+          "ftpInputAccountName": "GlobalscapeRevportSFTP",
+          "ftpOutputPath": "sftp://int-prd.mgti.mmc.com/from_mrcrwealth_mdo/revport/meraut/uat/",
+          "ftpOutputAccountName": "GlobalscapeRevportSFTP",
+          "ftpArchivePath": "ftp://USDF14V0474/Revport/",
+          "ftpArchiveAccountName": "MercerServer@USDF14V0474"
+        }
+      }
+    ],
+    "notification": [
+      {
+        "notificationMethod": "email",
+        "notificationKey": "validation",
+        "notificationIds": [
+          "mikhail.krastelev@mmc.com",
+          "tagaibek.tolubaev@mmc.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      },
+      {
+        "notificationMethod": "email",
+        "notificationKey": "alerts",
+        "notificationIds": [
+          "mikhail.krastelev@emergn.com",
+          "tagaibek.tolubaev@emergn.com",
+          "kiran.dhage@mercer.com",
+          "prabhukumar.a@mercer.com",
+          "saran.thiruchabai@mmc.com",
+          "nemi.nabiraj@mmc.com",
+          "elena.belomytseva@mmc.com"
+        ],
+        "escalationLevel": 1
+      }
+    ]
+  }
+]

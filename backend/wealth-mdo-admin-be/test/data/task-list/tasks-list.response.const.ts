@@ -1,0 +1,58 @@
+const taskCommonResponseData = {
+  assignee: null,
+  followUp: null,
+  delegationState: null,
+  owner: null,
+  parentTaskId: null,
+  priority: 50,
+  caseExecutionId: null,
+  caseInstanceId: null,
+  caseDefinitionId: null,
+  suspended: false,
+  tenantId: null,
+};
+
+export const mockTasksListResponse = {
+  data: [
+    {
+      ...taskCommonResponseData,
+      id: '4932f9d0-6c6b-11eb-8b32-0242ac110002',
+      name: 'Approve Invoice',
+      created: '2021-02-11T13:16:01.030+0000',
+      due: '2021-02-18T13:16:01.032+0000',
+      description: 'Approve the invoice (or not).',
+      executionId: '4901fea1-6c6b-11eb-8b32-0242ac110002',
+      processDefinitionId: 'invoice:1:486e98f1-6c6b-11eb-8b32-0242ac110002',
+      processInstanceId: '4901fea1-6c6b-11eb-8b32-0242ac110002',
+      taskDefinitionKey: 'approveInvoice',
+      formKey: 'embedded:app:forms/approve-invoice.html',
+    },
+    {
+      ...taskCommonResponseData,
+      id: '49c1a58f-6c6b-11eb-8b32-0242ac110002',
+      name: 'Prepare\nBank\nTransfer',
+      created: '2021-02-11T13:16:01.706+0000',
+      due: '2021-02-18T13:16:01.706+0000',
+      description: 'Prepare the bank transfer.',
+      executionId: '49c17e7d-6c6b-11eb-8b32-0242ac110002',
+      processDefinitionId: 'invoice:1:486e98f1-6c6b-11eb-8b32-0242ac110002',
+      processInstanceId: '499abc63-6c6b-11eb-8b32-0242ac110002',
+      taskDefinitionKey: 'prepareBankTransfer',
+      formKey: 'embedded:app:forms/prepare-bank-transfer.html',
+    },
+    {
+      ...taskCommonResponseData,
+      id: '49d9e7d9-6c6b-11eb-8b32-0242ac110002',
+      name: 'Assign Reviewer',
+      assignee: 'demo',
+      created: '2021-02-11T13:16:01.980+0000',
+      executionId: '49d9c1b9-6c6b-11eb-8b32-0242ac110002',
+      processDefinitionId:
+        'ReviewInvoice:1:486f0e23-6c6b-11eb-8b32-0242ac110002',
+      processInstanceId: '49d9c1b9-6c6b-11eb-8b32-0242ac110002',
+      taskDefinitionKey: 'assignReviewer',
+      formKey: 'embedded:app:forms/assign-reviewer.html',
+    },
+  ],
+  status: 200,
+};

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "ObjectId('60916161130da31be8c85fab')",
+    "key": "validation",
+    "display": "Validation",
+    "order": 1
+  },
+  {
+    "_id": "ObjectId('60916161130da31be8c85fac')",
+    "key": "alerts",
+    "display": "Alerts",
+    "order": 2
+  },
+  {
+    "_id": "ObjectId('60916161130da31be8c85fad')",
+    "key": "error",
+    "display": "Error",
+    "order": 3
+  },
+  {
+    "_id": "ObjectId('60916161130da31be8c85fbd')",
+    "key": "priceNotification",
+    "display": "Prices Notification",
+    "order": 4
+  }
+]

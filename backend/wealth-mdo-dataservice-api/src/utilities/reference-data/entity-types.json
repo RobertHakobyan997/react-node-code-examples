@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "ObjectId('608ba9cbc1656e7b68ab3ed3')",
+    "key": "fund",
+    "display": "Fund",
+    "order": 1
+  },
+  {
+    "_id": "ObjectId('608ba9cbc1656e7b68ab3ed4')",
+    "key": "client",
+    "display": "Client",
+    "order": 2
+  },
+  {
+    "_id" : "ObjectId('611a61778699cfd5d32d81b7')",
+    "key" : "account",
+    "display" : "Account",
+    "order" : 3
+  },
+  {
+    "_id" : "ObjectId('611a61778699cfd5d32d81b2')",
+    "key": "portfolioBB",
+    "display": "Portfolios & BB",
+    "order" : 4
+  },
+  {
+    "_id" : "ObjectId('6184dc46ef402f4bab802361')",
+    "key": "subAdvisor",
+    "display": "Sub Advisor",
+    "order" : 5
+  },
+  {
+    "_id": "ObjectId('6184dc46ea402f4bab802362')",
+    "key": "securityHoldingInformation",
+    "display": "Security Holding Information",
+    "order": 6
+  },
+  {
+    "_id": "ObjectId('6184dc46ea402f4bab802372')",
+    "key": "subIm",
+    "display": "Sub IM",
+    "order": 7
+  },
+  {
+    "_id": "ObjectId('62138814dd3e7e07833fc9fd')",
+    "key": "referenceData",
+    "display": "Reference Data",
+    "order": 8
+  }
+]

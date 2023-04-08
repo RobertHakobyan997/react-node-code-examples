@@ -1,0 +1,10 @@
+[
+  {
+    "appId": "SET_CORRESPODING_APP_ID",
+    "email": "name.lname@mmc.com",
+    "firstName": "Name",
+    "lastName": "LName",
+    "globalProfileId": "USER_GPId",
+    "activated": true
+  }
+]

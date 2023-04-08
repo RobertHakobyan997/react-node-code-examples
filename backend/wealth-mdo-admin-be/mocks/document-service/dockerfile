@@ -1,0 +1,21 @@
+FROM node:14
+
+WORKDIR /usr/src/app
+
+RUN apt-get install -y git
+
+ADD id_rsa /root/.ssh/id_rsa
+
+RUN chmod 700 /root/.ssh/id_rsa
+
+RUN touch /root/.ssh/known_hosts
+
+RUN ssh-keyscan bitbucket.org >> /root/.ssh/known_hosts
+
+RUN git clone git@bitbucket.org:oliverwymantechssg/ngpd-merceros-documents-be.git /usr/src/app
+
+RUN npm install
+
+EXPOSE 4009
+
+CMD [ "node", "app.js" ]

@@ -1,0 +1,20 @@
+#player-wrapper {
+  background: rgba(31, 36, 49, 0.5);
+  border-radius: 12px;
+  border: 1px solid #262c36;
+  position: relative;
+  max-width: 1084px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.react-player {
+  position: absolute !important;
+  top: 5px;
+  left: 5px;
+  height: calc(100% - 10px) !important;
+  width: calc(100% - 10px) !important;
+  overflow: hidden;
+  border-radius: 8px;
+}

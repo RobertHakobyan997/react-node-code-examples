@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "ObjectId('61a4d918cd8dddba59fc161d')",
+    "region": "international",
+    "key": "various",
+    "display": "Various",
+    "order": 1
+  },
+  {
+    "_id": "ObjectId('61a4d918cd8dddba59fc171d')",
+    "region": "northAmerica",
+    "key": "unitedStates",
+    "display": "United States",
+    "order": 2
+  },
+  {
+    "_id": "ObjectId('61a4d962cd8dddba59fc171e')",
+    "region": "northAmerica",
+    "key": "canada",
+    "display": "Canada",
+    "order": 3
+  },
+  {
+    "_id": "ObjectId('61a4d990cd8dddba59fc171f')",
+    "region": "pacific",
+    "key": "australia",
+    "display": "Australia",
+    "order": 4
+  },
+  {
+    "_id": "ObjectId('61a4d9b4cd8dddba59fc1720')",
+    "region": "pacific",
+    "key": "newZealand",
+    "display": "New Zealand",
+    "order": 5
+  },
+  {
+    "_id": "ObjectId('61a4d9b4cd8dddba59fc1730')",
+    "region": "europe",
+    "key": "germany",
+    "display": "Germany",
+    "order": 6
+  },
+  {
+    "_id": "ObjectId('61a4d9b4cd8dddba59fc1731')",
+    "region": "europe",
+    "key": "unitedKingdom",
+    "display": "United Kingdom",
+    "order": 7
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "ObjectId('60bdff2a7c0e4b736b8bdb88')",
+    "permission": "create advanced user",
+    "role": "advanced user"
+  },
+  {
+    "_id": "ObjectId('6151e44d2d6e37b573c44875')",
+    "permission": "create basic user",
+    "role": "basic user"
+  },
+  {
+    "_id": "ObjectId('60bdff2e95052dbeef15d379')",
+    "permission": "create security admin",
+    "role": "security admin"
+  },
+  {
+    "_id": "ObjectId('60bdff326a2986a2a9239822')",
+    "permission": "create super admin",
+    "role": "superadmin"
+  }
+]

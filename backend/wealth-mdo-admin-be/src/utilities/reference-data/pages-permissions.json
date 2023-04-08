@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "ObjectId('60b77ceb19443d7c0ed8a460')",
+    "permission": "manage users",
+    "route": "/manage-users",
+    "actionPermissions": [
+      "create advanced user",
+      "create basic user",
+      "create super admin",
+      "create security admin",
+      "delete account",
+      "activate account",
+      "suspend account",
+      "change personal details",
+      "export users to csv",
+      "configure permissions"
+    ]
+  },
+  {
+    "_id": "ObjectId('60b77ce0f076641e57c41d3f')",
+    "permission": "dashboard page",
+    "route": "/dashboard",
+    "actionPermissions": [
+      "download file",
+      "resend file",
+      "reprocess file"
+    ]
+  },
+  {
+    "_id": "ObjectId('60b77ce7f231b9e128f66fa3')",
+    "permission": "file search page",
+    "route": "/file-search",
+    "actionPermissions": ["download file"]
+  },
+  {
+    "_id": "ObjectId('60ba292c421e33ef93a0e00a')",
+    "permission": "download file",
+    "route": "/dashboard/file-download",
+    "actionPermissions": []
+  },
+  {
+    "_id": "ObjectId('60ba2937af79c8228d7eff61')",
+    "permission": "user guides",
+    "route": "/user-guides",
+    "actionPermissions": []
+  },
+  {
+    "_id": "ObjectId('61766f7994be26ed7ebf7610')",
+    "permission": "manage contacts",
+    "route": "/manage-contacts",
+    "actionPermissions": [
+      "edit contacts",
+      "add contacts",
+      "delete contacts"
+    ]
+  },
+  {
+    "_id": "ObjectId('6193619780f60e5f0a8138df')",
+    "permission": "manage calendars",
+    "route": "/holiday-calendars",
+    "actionPermissions": [
+      "enable or disable holiday calendar",
+      "create holiday calendar",
+      "edit holiday calendar",
+      "delete holiday calendar",
+      "edit holiday calendars contacts"
+    ]
+  },
+  {
+    "_id": "ObjectId('61c976a0f83bdfe09d9ed99e')",
+    "permission": "file information page",
+    "route": "/file-metadata-info",
+    "actionPermissions": [
+      "edit metadata",
+      "view metadata contacts",
+      "view holiday calendars",
+      "view metadata schedule",
+      "edit metadata timezone and hours",
+      "view schedule history"
+    ]
+  }
+]

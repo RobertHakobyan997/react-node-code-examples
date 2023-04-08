@@ -1,0 +1,56 @@
+[
+  {
+    "_id"    : "ObjectId('61aa29d64977c31c645665da')",
+    "key"    : "AllWorkDays",
+    "display": "All Work Days",
+    "order"  : 1
+  },
+  {
+    "_id"    : "ObjectId('61aa29dc71439947d7f09d56')",
+    "key"    : "AllDaysOfWeek",
+    "display": "All Days of the Week",
+    "order"  : 2
+  },
+  {
+    "_id"    : "ObjectId('61aa29e015f5cf0fdb3c9355')",
+    "key"    : "Monday",
+    "display": "Monday",
+    "order"  : 3
+  },
+  {
+    "_id"    : "ObjectId('61aa29e50a8aac1cd4057f3f')",
+    "key"    : "Tuesday",
+    "display": "Tuesday",
+    "order"  : 4
+  },
+  {
+    "_id"    : "ObjectId('61aa29ebabb0e09efa413fa8')",
+    "key"    : "Wednesday",
+    "display": "Wednesday",
+    "order"  : 5
+  },
+  {
+    "_id"    : "ObjectId('61aa29f14fd919bddc349f8d')",
+    "key"    : "Thursday",
+    "display": "Thursday",
+    "order"  : 6
+  },
+  {
+    "_id"    : "ObjectId('61aa29f77318605a4634974d')",
+    "key"    : "Friday",
+    "display": "Friday",
+    "order"  : 7
+  },
+  {
+    "_id"    : "ObjectId('61aa29fca107c89c79ebbbf8')",
+    "key"    : "Saturday",
+    "display": "Saturday",
+    "order"  : 8
+  },
+  {
+    "_id"    : "ObjectId('61aa2a00ae0d7d37cb2ed364')",
+    "key"    : "Sunday",
+    "display": "Sunday",
+    "order"  : 9
+  }
+]

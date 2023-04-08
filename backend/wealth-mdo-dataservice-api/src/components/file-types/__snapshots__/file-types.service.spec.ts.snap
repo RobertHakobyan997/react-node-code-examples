@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileTypesService plainToClass 1`] = `
+Array [
+  Object {
+    "_id": "609d4c33bfd3901b8c3af802",
+    "display": "Positions",
+    "hidden": false,
+    "key": "positions",
+    "order": 1,
+  },
+  Object {
+    "_id": "609d4c33bfd3901b8c3af803",
+    "display": "Transactions",
+    "hidden": false,
+    "key": "transactions",
+    "order": 2,
+  },
+  Object {
+    "_id": "609d4c33bfd3901b8c3af804",
+    "display": "Cash Flow",
+    "hidden": false,
+    "key": "cashFlow",
+    "order": 3,
+  },
+  Object {
+    "_id": "609d4c33bfd3901b8c3af805",
+    "display": "Error",
+    "hidden": false,
+    "key": "error",
+    "order": 4,
+  },
+]
+`;

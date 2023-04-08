@@ -1,0 +1,72 @@
+[
+  {
+    "_id"    : "ObjectId('615f015dc6fc5be16bf787b0')",
+    "key"    : "waitingToBeProcessed",
+    "display": "Waiting to be Processed",
+    "order"  : 1,
+    "hidden" : true
+  },
+  {
+    "_id"    : "ObjectId('60a217cec23780319c8f4612')",
+    "key"    : "inProgress",
+    "display": "In Progress",
+    "order"  : 2,
+    "hidden" : false
+  },
+  {
+    "_id"    : "ObjectId('60a217cec23780319c8f4613')",
+    "key"    : "failed",
+    "display": "Failed",
+    "order"  : 3,
+    "hidden" : false
+  },
+  {
+    "_id"    : "ObjectId('60a217cec23780319c8f4616')",
+    "key"    : "technicalError",
+    "display": "Technical Error",
+    "order"  : 4,
+    "hidden" : false
+  },
+  {
+    "_id"    : "ObjectId('60a217cec23780319c8f4614')",
+    "key"    : "finishedWithErrors",
+    "display": "Finished with Errors",
+    "order"  : 5,
+    "hidden" : false
+  },
+  {
+    "_id"    : "ObjectId('60a217cec23780319c8f4615')",
+    "key"    : "success",
+    "display": "Success",
+    "order"  : 6,
+    "hidden" : false
+  },
+  {
+    "_id"    : "ObjectId('611e633282ab1cddd81c24bf')",
+    "key"    : "successNoOutput",
+    "display": "Success - No Output",
+    "order"  : 7,
+    "hidden" : true
+  },
+  {
+    "_id"    : "ObjectId('61cac0b9d049c7833d516399')",
+    "key"    : "resend",
+    "display": "Resend",
+    "order"  : 8,
+    "hidden" : true
+  },
+  {
+    "_id"    : "ObjectId('61cc65804577566ac1a9974d')",
+    "key"    : "reprocess",
+    "display": "Reprocess",
+    "order"  : 9,
+    "hidden" : true
+  },
+  {
+    "_id"    : "ObjectId('61cc65804577566ac1a7774a')",
+    "key"    : "successFileSaved",
+    "display": "Success File Saved",
+    "order"  : 10,
+    "hidden" : true
+  }
+]

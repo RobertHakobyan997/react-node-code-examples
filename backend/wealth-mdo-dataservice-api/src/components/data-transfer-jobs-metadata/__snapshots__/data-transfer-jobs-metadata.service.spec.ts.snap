@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProcessingStatusesService plainToClass 1`] = `
+DataTransferJobsMetadata {
+  "_id": "611f68a99f217cce3a4d91f8",
+  "data": Array [
+    DataTransferJobsMetadataData {
+      "_id": "611f6d0df72945a1fb538c0d",
+      "accountName": "EaglePaceAPI",
+      "childObjectName": "genericEntity",
+      "columnName": "upd_Date",
+      "dataHeader": "entityTransactionMessage",
+      "dbName": "rulesdbo",
+      "eagleApiEndPointName": "entities",
+      "eagleIdentifiers": EagleIdentifiers {
+        "accountIdType": "NRS_CUSTODY_FUND",
+        "securityIdType": "NRS_CUSTODY",
+      },
+      "eaglePaceURL": "https://mgi-d003-star.eagleaccess.com/eagle/v2",
+      "ftpAccountName": "EaglePaceSFTP",
+      "ftpOutputPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/output/",
+      "ftpPath": "ftp://intranetftp.mercer.com/public/wealth/MDO/",
+      "historyOnlyFlag": "N",
+      "objectType": "Entities",
+      "parentObjectName": "entityTransaction",
+      "tableName": "entity",
+      "topicName": "P500_EAGLE2KF_ENTITIES",
+    },
+  ],
+  "dataTransferJobKey": "eagle2Kafka_Entities",
+  "isEnabled": true,
+  "notification": Array [
+    Notification {
+      "escalationLevel": 1,
+      "notificationIds": Array [
+        "mikhail.krastelev@mmc.com",
+        "tagaibek.tolubaev@mmc.com",
+        "kiran.dhage@mercer.com",
+        "prabhukumar.a@mercer.com",
+        "saran.thiruchabai@mmc.com",
+        "nemi.nabiraj@mmc.com",
+      ],
+      "notificationKey": "validation",
+      "notificationMethod": "email",
+    },
+    Notification {
+      "escalationLevel": 1,
+      "notificationIds": Array [
+        "mikhail.krastelev@emergn.com",
+        "tagaibek.tolubaev@emergn.com",
+        "kiran.dhage@mercer.com",
+        "prabhukumar.a@mercer.com",
+        "saran.thiruchabai@mmc.com",
+        "nemi.nabiraj@mmc.com",
+      ],
+      "notificationKey": "alerts",
+      "notificationMethod": "email",
+    },
+  ],
+  "region": "unitedStates",
+  "schedule": DataTransferJobsSchedule {
+    "endDate": "2023-09-01",
+    "expectedDays": Array [
+      DataTransferJobsScheduleDay {
+        "dayOfTheWeek": "AllWorkDays",
+        "endOfLate": ScheduleTime {
+          "time": "17:00",
+        },
+        "endOfOnSchedule": ScheduleTime {
+          "time": "13:00",
+        },
+        "endOfOnTime": ScheduleTime {
+          "time": "16:00",
+        },
+      },
+    ],
+    "frequency": "Daily",
+    "holidayCalendarId": "609d488d3413c47110d7f91f",
+    "repeatDuration": "1",
+    "startDate": "2021-09-01",
+    "startTime": "00:01",
+    "timeZone": "America/Chicago",
+  },
+  "snaplogicTasks": Array [
+    Snaplogic {
+      "camundaTopicName": "callSnaplogicDataTransferTask",
+      "taskUrl": "TASK_TRGD_MDO_Eagle2Kafka_PushData",
+    },
+  ],
+  "workflowProcessKey": "",
+  "workflowProcessName": "DataTransfer_Default_Workflow",
+}
+`;

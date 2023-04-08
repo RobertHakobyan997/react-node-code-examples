@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProcessingStatusesService plainToClass 1`] = `
+DataTransferJobsStatus {
+  "_id": "611f68a99f217cce3a4d91f8",
+  "jobMetaDataId": "611d04f5204471d32fd1c18e",
+  "state": Object {
+    "errorMessage": "",
+    "lastRunTime": "2021-08-05T17:20:15.413Z",
+    "lastSuccessfulProcessTime": "2021-08-05T17:20:30.437Z",
+    "processingStatus": "technicalError",
+  },
+  "updatedAt": "2021-08-05T17:20:30.437Z",
+}
+`;

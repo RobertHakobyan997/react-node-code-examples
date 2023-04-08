@@ -1,0 +1,11 @@
+{
+  "collection"     : "@nestjs/schematics",
+  "sourceRoot"     : "src",
+  "language": "ts",
+  "generateOptions": {
+    "spec": {
+      "controller": false,
+      "co"        : false
+    }
+  }
+}

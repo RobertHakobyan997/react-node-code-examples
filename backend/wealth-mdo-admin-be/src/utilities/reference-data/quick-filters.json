@@ -1,0 +1,96 @@
+[
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327a')",
+    "key": "24h",
+    "units": "hours",
+    "count": 24,
+    "display": "24 Hours",
+    "order": 1
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327b')",
+    "key": "3d",
+    "units": "days",
+    "count": 3,
+    "display": "3 Days",
+    "order": 2
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327c')",
+    "key": "7d",
+    "units": "days",
+    "count": 7,
+    "display": "7 Days",
+    "order": 3
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327d')",
+    "key": "1m",
+    "units": "month",
+    "count": 1,
+    "display": "1 Month",
+    "order": 4
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327e')",
+    "key": "3m",
+    "units": "month",
+    "count": 3,
+    "display": "3 Months",
+    "order": 5
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce8327f')",
+    "key": "6m",
+    "units": "month",
+    "count": 6,
+    "display": "6 Months",
+    "order": 6
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83280')",
+    "key": "1y",
+    "units": "year",
+    "count": 1,
+    "display": "1 Year",
+    "order": 7
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83281')",
+    "key": "2y",
+    "units": "year",
+    "count": 2,
+    "display": "2 Years",
+    "order": 8
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83282')",
+    "key": "5y",
+    "units": "year",
+    "count": 5,
+    "display": "5 Years",
+    "order": 9
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83283')",
+    "key": "7y",
+    "units": "year",
+    "count": 7,
+    "display": "7 Years",
+    "order": 10
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83284')",
+    "key": "all",
+    "units": "year",
+    "count": -1,
+    "display": "All Years",
+    "order": 11
+  },
+  {
+    "_id": "ObjectId('6092257d8ad462115ce83285')",
+    "key": "custom",
+    "display": "Custom Date Range",
+    "order": 12
+  }
+]

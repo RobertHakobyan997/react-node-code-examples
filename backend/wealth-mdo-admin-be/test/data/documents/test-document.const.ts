@@ -1,0 +1,18 @@
+export const testDocument = {
+  id: '602920580546a43ba719c74b',
+  filename: 'file.xls',
+  contentType: 'application/vnd.ms-excel',
+  length: 34,
+  uploadDate: '2021-02-14T13:06:32.437Z',
+  storageId: '602920580546a45e4219c749',
+  bucketId: '602248b1acf7a7037d9926d6',
+  bucketName: 'wealth1234',
+  applicationKey: 'key',
+  isDeleted: false,
+  isCascadeDeleted: false,
+  isCurrentVersion: true,
+  cascadeDelStartingBucketId: null,
+  createdBy: null,
+  updationDate: null,
+  updatedBy: null,
+};

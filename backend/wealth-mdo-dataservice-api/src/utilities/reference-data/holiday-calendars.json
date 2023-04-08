@@ -1,0 +1,1142 @@
+[
+  {
+    "_id": "ObjectId('609d488d3413c47110d7f91f')",
+    "calendarName": "UK International",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "unitedKingdom",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2021-05-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2021-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "St. Stephen's Day",
+            "holidayDate": "ISODate('2021-12-28T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2022-05-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "St. Stephen's Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('60cc509c50020128e4d028c4')",
+    "calendarName": "United States NYSE",
+    "region": "northAmerica",
+    "country": "unitedStates",
+    "isEnabled": true,
+    "calendarSource": "https://www.nyse.com/markets/hours-calendars",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Martin Luther King, Jr. Day",
+            "holidayDate": "ISODate('2021-01-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Washington's Birthday",
+            "holidayDate": "ISODate('2021-02-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Memorial Day",
+            "holidayDate": "ISODate('2021-05-31T00:00:00.000Z')1"
+          },
+          {
+            "holidayName": "Independence Day",
+            "holidayDate": "ISODate('2021-07-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labor Day",
+            "holidayDate": "ISODate('2021-09-06T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Thanksgiving Day",
+            "holidayDate": "ISODate('2021-11-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2021-12-24T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year",
+            "holidayDate": "ISODate('2022-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Martin Luther King, Jr. Day",
+            "holidayDate": "ISODate('2022-01-17T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Washington's Birthday",
+            "holidayDate": "ISODate('2022-02-21T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Memorial Day",
+            "holidayDate": "ISODate('2022-05-30T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Juneteenth National Independence Day",
+            "holidayDate": "ISODate('2022-06-20T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Independence Day",
+            "holidayDate": "ISODate('2022-07-04T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labor Day",
+            "holidayDate": "ISODate('2022-09-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Thanksgiving Day",
+            "holidayDate": "ISODate('2022-11-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('60cc509c50020128e4d028c5')",
+    "calendarName": "No Holidays",
+    "region": "international",
+    "country": "various",
+    "isEnabled": true,
+    "isDefault": true,
+    "calendarSource": "MDO",
+    "listOfHolidays": []
+  },
+  {
+    "_id": "ObjectId('611a67ad8699cfd5d32d84fb')",
+    "calendarName": "Australia Holidays - Victoria",
+    "region": "pacific",
+    "country": "australia",
+    "isEnabled": true,
+    "calendarSource": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2021",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2021-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2021-03-08T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2021-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen’s Birthday",
+            "holidayDate": "ISODate('2021-06-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Friday before AFL Grand Final",
+            "holidayDate": "ISODate('2021-09-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2021-11-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-28T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2022-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2022-03-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2022-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen’s Birthday",
+            "holidayDate": "ISODate('2022-06-13T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "AFL Grand Final",
+            "holidayDate": "ISODate('2022-09-23T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2022-11-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6127656105dbe7bf9510dc2e')",
+    "calendarName": "Au Vic Public Holidays",
+    "region": "pacific",
+    "country": "australia",
+    "isEnabled": true,
+    "calendarSource": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2021",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2021-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2021-03-08T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2021-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen’s Birthday",
+            "holidayDate": "ISODate('2021-06-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Friday before AFL Grand Final",
+            "holidayDate": "ISODate('2021-09-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2021-11-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-28T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2022-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2022-03-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2022-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen’s Birthday",
+            "holidayDate": "ISODate('2022-06-13T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "AFL Grand Final",
+            "holidayDate": "ISODate('2022-09-23T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2022-11-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6127802910f2aee0b2578ae1')",
+    "calendarName": "Custom calendar - Australia and New Zealand",
+    "region": "pacific",
+    "country": "newZealand",
+    "isEnabled": true,
+    "calendarSource": "Custom calendar",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2021-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Waitangi Day",
+            "holidayDate": "ISODate('2021-02-08T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day (Australia)",
+            "holidayDate": "ISODate('2021-03-08T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2021-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen's Birthday (New Zealand)",
+            "holidayDate": "ISODate('2021-06-07T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen's Birthday (Australia)",
+            "holidayDate": "ISODate('2021-06-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Friday before Grand Final",
+            "holidayDate": "ISODate('2021-09-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day (New Zealand)",
+            "holidayDate": "ISODate('2021-10-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2021-11-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2021-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2021-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day Holiday",
+            "holidayDate": "ISODate('2021-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day Holiday",
+            "holidayDate": "ISODate('2021-12-28T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Day After New Year",
+            "holidayDate": "ISODate('2022-01-04T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Australia Day",
+            "holidayDate": "ISODate('2022-01-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Waitangi Day",
+            "holidayDate": "ISODate('2022-02-07T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day (Australia)",
+            "holidayDate": "ISODate('2022-03-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Anzac Day",
+            "holidayDate": "ISODate('2022-04-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen's Birthday (New Zealand)",
+            "holidayDate": "ISODate('2022-06-06T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Queen's Birthday (Australia)",
+            "holidayDate": "ISODate('2022-06-13T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Matariki",
+            "holidayDate": "ISODate('2022-06-14T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "AFL Grand Final",
+            "holidayDate": "ISODate('2022-09-23T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day (New Zealand)",
+            "holidayDate": "ISODate('2022-10-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Melbourne Cup",
+            "holidayDate": "ISODate('2022-11-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2022-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('609d488d3413c47110d7f944')",
+    "calendarName": "Cutomised Holiday Calendar",
+    "region": "international",
+    "country": "various",
+    "isEnabled": true,
+    "calendarSource": "MDO",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "May Day",
+            "holidayDate": "ISODate('2021-05-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "St. Stephen's Day (Additional Day)",
+            "holidayDate": "ISODate('2021-12-28T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2022-01-01T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "days": [
+          {
+            "holidayName": "New Year's Day",
+            "holidayDate": "ISODate('2023-01-01T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('609d488d3413c47220d7f945')",
+    "calendarName": "Germany -  National Holidays",
+    "region": "europe",
+    "country": "germany",
+    "isEnabled": true,
+    "calendarSource": "https://publicholidays.de/2022-dates/",
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2021,
+        "days": [
+          {
+            "holidayName": "New Year (January 1)",
+            "holidayDate": "ISODate('2021-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2021-04-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2021-04-05T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labor Day (May 1)",
+            "holidayDate": "ISODate('2021-05-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Ascension Day",
+            "holidayDate": "ISODate('2021-05-13T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Whit Monday",
+            "holidayDate": "ISODate('2021-05-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "German Unity Day (October 3)",
+            "holidayDate": "ISODate('2021-10-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Eve (December 24)",
+            "holidayDate": "ISODate('2021-12-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (December 25)",
+            "holidayDate": "ISODate('2021-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day (December 26)",
+            "holidayDate": "ISODate('2021-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "New Year's Eve (December 31)",
+            "holidayDate": "ISODate('2021-12-31T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Year (January 1)",
+            "holidayDate": "ISODate('2022-01-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-05-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labor Day (May 1)",
+            "holidayDate": "ISODate('2022-05-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Ascension Day",
+            "holidayDate": "ISODate('2022-05-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Whit Monday",
+            "holidayDate": "ISODate('2022-06-06T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "German Unity Day (October 3)",
+            "holidayDate": "ISODate('2022-10-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Eve (December 24)",
+            "holidayDate": "ISODate('2022-12-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (December 25)",
+            "holidayDate": "ISODate('2022-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day (December 26)",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "New Year's Eve (December 31)",
+            "holidayDate": "ISODate('2022-12-31T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('61f2a824df9c553b947ee982')",
+    "calendarName": "UK Bank Holidays",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "unitedKingdom",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Early May Bank Holiday",
+            "holidayDate": "ISODate('2022-05-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Plantinum Jubliee Bank Holiday",
+            "holidayDate": "ISODate('2022-06-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Summer Bank Holiday",
+            "holidayDate": "ISODate('2022-08-29T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Alternate)",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2023-01-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2023-04-07T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2023-04-10T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Early May Bank Holiday",
+            "holidayDate": "ISODate('2023-05-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Spring Bank Holiday",
+            "holidayDate": "ISODate('2023-05-29T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Summer Bank Holiday",
+            "holidayDate": "ISODate('2023-08-28T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2023-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2023-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6214c70b590d4eeb646e2f3d')",
+    "calendarName": "MUAS UK & Ireland",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "various",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Early May Bank Holiday",
+            "holidayDate": "ISODate('2022-05-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Holiday day",
+            "holidayDate": "ISODate('2022-08-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day (Alternate)",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Fund Holiday",
+            "holidayDate": "ISODate('2022-12-29T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Fund Holiday",
+            "holidayDate": "ISODate('2022-12-30T00:00:00.000Z')"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2023-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2023-04-07T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2023-04-10T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Early May Bank Holiday",
+            "holidayDate": "ISODate('2023-05-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Holiday day",
+            "holidayDate": "ISODate('2023-08-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2023-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2023-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Fund Holiday",
+            "holidayDate": "ISODate('2023-12-29T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('62138c6baddda6c68f29ef6d')",
+    "calendarName": "FX UK International",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "unitedKingdom",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Spring Bank Holiday",
+            "holidayDate": "ISODate('2022-05-30T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Boxing Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('6217c351590d4eeb646e2f43')",
+    "calendarName": "UK STOCK",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "unitedKingdom",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "New Years Day",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Good Friday",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Easter Monday",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Labour Day",
+            "holidayDate": "ISODate('2022-05-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Spring bank holiday",
+            "holidayDate": "ISODate('2022-06-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Summer bank holiday",
+            "holidayDate": "ISODate('2022-08-29T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "St. Stephen's Day",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Christmas Day",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('62178aa53dba340d2c4239be')",
+    "calendarName": "ENGLUX",
+    "region": "international",
+    "calendarSource": "MDO",
+    "country": "various",
+    "isEnabled": true,
+    "maintenance": {
+      "contacts": [],
+      "schedule": {
+        "month": 11,
+        "endDay": "12-31",
+        "dayOfTheWeek": 4,
+        "frequency": "Weekly"
+      }
+    },
+    "listOfHolidays": [
+      {
+        "year": 2022,
+        "days": [
+          {
+            "holidayName": "Eng",
+            "holidayDate": "ISODate('2022-01-03T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Eng",
+            "holidayDate": "ISODate('2022-04-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux and Eng",
+            "holidayDate": "ISODate('2022-04-18T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Eng",
+            "holidayDate": "ISODate('2022-05-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux",
+            "holidayDate": "ISODate('2022-05-09T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux",
+            "holidayDate": "ISODate('2022-05-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Eng",
+            "holidayDate": "ISODate('2022-06-02T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux ",
+            "holidayDate": "ISODate('2022-06-06T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux",
+            "holidayDate": "ISODate('2022-06-23T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux",
+            "holidayDate": "ISODate('2022-08-15T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Eng",
+            "holidayDate": "ISODate('2022-08-29T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux",
+            "holidayDate": "ISODate('2022-11-01T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Irl and Eng",
+            "holidayDate": "ISODate('2022-12-24T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Irl and Eng",
+            "holidayDate": "ISODate('2022-12-25T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux and Eng",
+            "holidayDate": "ISODate('2022-12-26T00:00:00.000Z')"
+          },
+          {
+            "holidayName": "Lux and Eng",
+            "holidayDate": "ISODate('2022-12-27T00:00:00.000Z')"
+          }
+        ]
+      }
+    ]
+  }
+]

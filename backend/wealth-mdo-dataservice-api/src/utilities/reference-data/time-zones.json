@@ -1,0 +1,79 @@
+[
+  {
+    "_id" : "ObjectId('61af5c98a2733056fbd91cf3')",
+    "display": "UTC",
+    "key": "Etc/UTC",
+    "source": "IANA-specified zones",
+    "order": 1
+  },
+  {
+    "_id" : "ObjectId('61af5cc37e28281eb5e2e7d3')",
+    "display": "US/Eastern",
+    "key": "America/New_York",
+    "source": "IANA-specified zones",
+    "order": 2
+  },
+  {
+    "_id" : "ObjectId('61af5cc863bf761025a31cbe')",
+    "display": "US/Central",
+    "key": "America/Chicago",
+    "source": "IANA-specified zones",
+    "order": 3
+  },
+  {
+    "_id" : "ObjectId('61af5cde14d872ad57d8497d')",
+    "display": "US/Pacific",
+    "key": "America/Los_Angeles",
+    "source": "IANA-specified zones",
+    "order": 4
+  },
+  {
+    "_id" : "ObjectId('61af5cd4b60e9d56ab3dc97a')",
+    "display": "GMT",
+    "key": "Etc/GMT",
+    "source": "IANA-specified zones",
+    "order": 5
+  },
+  {
+    "_id" : "ObjectId('61af5cd87c090919e904044c')",
+    "display": "Australia/ACT",
+    "key": "Australia/Sydney",
+    "source": "IANA-specified zones",
+    "order": 6
+  },
+  {
+    "_id" : "ObjectId('61af5cf3c6e16cb463b7d7ce')",
+    "display": "Australia/West",
+    "key": "Australia/Perth",
+    "source": "IANA-specified zones",
+    "order": 7
+  },
+  {
+    "_id" : "ObjectId('61af5cf857c3f7bc5bebb8ad')",
+    "display": "Australia/North",
+    "key": "Australia/Darwin",
+    "source": "IANA-specified zones",
+    "order": 8
+  },
+  {
+    "_id" : "ObjectId('61af5cfd5250167b843d2785')",
+    "display": "Canada/Eastern",
+    "key": "America/Toronto",
+    "source": "IANA-specified zones",
+    "order": 9
+  },
+  {
+    "_id" : "ObjectId('61af5d047a821bb50892203c')",
+    "display": "Canada/Central",
+    "key": "America/Winnipeg",
+    "source": "IANA-specified zones",
+    "order": 10
+  },
+  {
+    "_id" : "ObjectId('61af5d08798763b0610c98a3')",
+    "display": "Canada/Pacific",
+    "key": "America/Vancouver",
+    "source": "IANA-specified zones",
+    "order": 11
+  }
+]

@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  document-service:
+    depends_on:
+      - 'mongo'
+    image: 'document-service:0.1'
+    ports:
+      - '4009:4009'
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/ds
+      - PORT=4009
+  mongo:
+    image: 'mongo:4.4.0-rc9-bionic'
+    ports:
+      - '27017:27017'

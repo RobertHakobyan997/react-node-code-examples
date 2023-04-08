@@ -1,0 +1,16 @@
+{
+  "collection"     : "@nestjs/schematics",
+  "sourceRoot"     : "src",
+  "compilerOptions": {
+    "tsConfigPath": "tsconfig.json",
+    "assets"      : [
+      "../util"
+    ]
+  },
+  "generateOptions": {
+    "spec": {
+      "controller": false,
+      "co"        : false
+    }
+  }
+}

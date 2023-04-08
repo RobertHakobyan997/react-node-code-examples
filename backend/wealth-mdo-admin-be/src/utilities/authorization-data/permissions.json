@@ -1,0 +1,187 @@
+[
+  {
+    "_id": "60ba0c2456670fc00a5649b0",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "create advanced user"
+  },
+  {
+    "_id": "6151e7142d6e37b573c44878",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "create basic user"
+  },
+  {
+    "_id": "60ba0c3be6129e07eb9d3043",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "create super admin"
+  },
+  {
+    "_id": "60ba0c4005cbf04f78f45b30",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "create security admin"
+  },
+  {
+    "_id": "60ba0c4b9dae2e80cbed2769",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "delete account"
+  },
+  {
+    "_id": "60ba0c820142afde977972f8",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "activate account"
+  },
+  {
+    "_id": "60ba0c888624a2ddfa8a3384",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "suspend account"
+  },
+  {
+    "_id": "60ba0c8c17e1e8554d22986b",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "change personal details"
+  },
+  {
+    "_id": "60ba0ccf5d4f3e88714a7652",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "manage users"
+  },
+  {
+    "_id": "60ba0cd35b0d39865a5760af",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "dashboard page"
+  },
+  {
+    "_id": "60ba0d06dd3a1fedbc451f23",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "file search page"
+  },
+  {
+    "_id": "60ba0d33315b5052dcaf5fde",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "download file"
+  },
+  {
+    "_id": "61cab1df19571116ec674086",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "resend file"
+  },
+  {
+    "_id": "61cc3f17557d7555fe29721f",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "reprocess file"
+  },
+  {
+    "_id": "60ba0d3a51ca2ccff4883c78",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "user guides"
+  },
+  {
+    "_id": "60ba0d5e0aff6126e886ee2e",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "view log"
+  },
+  {
+    "_id": "60ba0d6325a7b346a23e5237",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "download log"
+  },
+  {
+    "_id": "6151d8872d6e37b573c4485a",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "edit metadata"
+  },
+  {
+    "_id": "616da1c2b3dccbbc2084daf2",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "view metadata contacts"
+  },
+  {
+    "_id": "61766db82076443cf7ebf067",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "manage contacts"
+  },
+  {
+    "_id": "61766f7994be26ed7ebf7610",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "edit contacts"
+  },
+  {
+    "_id": "6188678924fdeb36a1d33931",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "add contacts"
+  },
+  {
+    "_id": "6188ecd924fdeb36a1d3393d",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "delete contacts"
+  },
+  {
+    "_id": "6193613c0444c3dae53fb7b9",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "manage calendars"
+  },
+  {
+    "_id": "619f41f84cd8c0b1312db21b",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "enable or disable holiday calendar"
+  },
+  {
+    "_id": "61a0ebb694747857153bf605",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "create holiday calendar"
+  },
+  {
+    "_id": "61a0eb491a674a0d461c538a",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "edit holiday calendar"
+  },
+  {
+    "_id": "61a0eb641a674a0d461c538b",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "delete holiday calendar"
+  },
+  {
+    "_id": "6193613c0424c3dbe53fb7b8",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "view holiday calendars"
+  },
+  {
+    "_id": "61a8e17b48fba56a3aec6f51",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "export users to csv"
+  },
+  {
+    "_id": "61a8b0b5bd3638bc0903ba59",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "view metadata schedule"
+  },
+  {
+    "_id": "61b268ced79c9c16d5750c9a",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "edit metadata timezone and hours"
+  },
+  {
+    "_id": "61c998710e8f7d7d6725be8c",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "file information page"
+  },
+  {
+    "_id": "61e7db43f51ec1eebad20fdf",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "manage permissions restriction"
+  },
+  {
+    "_id": "61e93cc7597f228ef5f62cb2",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "view schedule history"
+  },
+  {
+    "_id": "61f24a12b375281ccfe37ad6",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "configure permissions"
+  },
+  {
+    "_id": "620cf8a4e753b1affae2d383",
+    "appId": "SET_CORRESPODING_APP_ID",
+    "name": "edit holiday calendars contacts"
+  }
+]

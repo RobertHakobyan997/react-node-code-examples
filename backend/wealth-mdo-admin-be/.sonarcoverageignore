@@ -1,0 +1,14 @@
+**/*.schema.ts
+**/*.consts.ts
+**/*.class.ts
+**/*.utils.ts
+**/*.controller.ts
+**/*.module.ts
+**/*.spec-setup.ts
+**/*.middleware.ts
+**/src/dev/**
+**/src/config/**
+**/src/decorators/**
+**/src/main.ts
+**/src/app*ts
+**/src/example/**

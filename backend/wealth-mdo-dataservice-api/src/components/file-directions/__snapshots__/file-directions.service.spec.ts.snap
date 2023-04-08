@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileDirectionsService plainToClass 1`] = `
+Array [
+  Object {
+    "_id": "609d4c33bfd3901b8c3af7f9",
+    "display": "Inbound",
+    "hidden": false,
+    "key": "inbound",
+    "order": 1,
+  },
+  Object {
+    "_id": "609d4c33bfd3901b8c3af7fa",
+    "display": "Outbound",
+    "hidden": false,
+    "key": "outbound",
+    "order": 2,
+  },
+  Object {
+    "_id": "609d4c33bfd3901b8c3af7fb",
+    "display": "Error",
+    "hidden": false,
+    "key": "error",
+    "order": 3,
+  },
+]
+`;
